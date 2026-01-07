@@ -6,8 +6,8 @@
 }
 
 body {
-    background: linear-gradient(135deg, #74ebd5, #9face6);
     min-height: 100vh;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -39,8 +39,6 @@ body {
     color: #333;
     font-weight: bold;
     transition: 0.3s;
-    text-decoration: none;
-    display: inline-block;
 }
 
 .btn:hover {
@@ -59,28 +57,8 @@ body {
 
 .card-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(228px, 1fr));
     gap: 15px;
-}
-
-/* Tambahan sedikit biar form kamu ikutan cakep */
-.form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.form input {
-    padding: 12px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-}
-
-.card {
-    border: 1px solid #eee;
-    padding: 15px;
-    border-radius: 12px;
-    background: #f9f9f9;
 }
 
 .card {
